@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+
+}
+.navlist{
+    display: flex;
+    width: 50%;
+   
+    
+    align-items: center;
+}
+.navlist li{
+  padding: 5px 20px;
+  list-style: none;
+}
+
+.navlist li a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.navlist li a:hover{
+    color: grey;
+}
+
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+
+    
+
+.rightnav{
+
+    width: 50%;
+    text-align: right;
+    padding-right: 14px;
+
+}
+.combo{
+    margin: 10px;
+    padding-top: 20px ;
+}
+.navlist li a{
+    text-decoration: none;
+}
+
+#search{
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 7px;
+    margin-right: 10px;
+    background: none;
+    color: white;
+}
+
+.btnsm{
+    color: white;
+    background: none;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.btnsm:hover{
+   background-color: white;
+   color: black;
+   cursor: pointer;
+}
+.background{
+    background: rgb(0, 0, 0,0.7) url('img/back.JPG');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+.fhalf{
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.shalf{
+    width: 30%;
+    text-align: center;
+}
+.watch{
+    width: 70%;
+}
+.button{
+    padding: 20px;
+   
+}
+.btn{
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+  background-color: white;
+  color:black;
+
+}
+
+#maintext{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.smallt{
+    font-size: 17px;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.paras{
+    padding: 0px 98px;
+}
+.imgfluid{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 20em;
+}
+.section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    margin: 5%;
+}
+.section-left{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    margin: 5%;
+  flex-direction: row-reverse;
+}
+.contact{
+    height: 90vh;
+    background-color: rgb(233, 228, 228);
+}
+.text-center{
+    text-align: center;
+    padding: 21px 0;
+}
+.form{
+  
+    max-width: 40%;
+    margin: auto;
+    color: black;
+    
+    
+}
+.form-input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    
+}
+.btnsmb{
+    color: black;
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: medium;
+
+}
+.btnsmb:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.form textarea{
+    font-size: x-large;
+}
+.footer{
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: larger;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
